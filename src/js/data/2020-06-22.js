@@ -306,7 +306,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -315,7 +314,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -324,7 +322,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -333,7 +330,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -342,7 +338,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -351,7 +346,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -360,7 +354,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -369,7 +362,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -378,7 +370,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -387,7 +378,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
     {
@@ -396,7 +386,6 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
-            notjphololive: true
         }
     },
 ];
