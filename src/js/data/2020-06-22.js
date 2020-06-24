@@ -20,7 +20,7 @@ dataSet[dataSetVersion].options = [
     ]
     },
   {
-    name: "Remove non-JP Holos",
+    name: "Remove Non-JP Holos",
     key: "notjphololive",
     tooltip: "Check this to remove all non-JP Hololive characters. HyperPlease.",
   },
