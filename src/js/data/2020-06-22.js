@@ -256,6 +256,13 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Mano Aloe",
+        img: "vcZEMzV.png",
+        opts: {
+            generation: ["gen5"],
+        }
+    },
+    {
         name: "Omaru Polka",
         img: "HGxfwSH.png",
         opts: {
