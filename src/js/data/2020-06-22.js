@@ -13,21 +13,27 @@ dataSet[dataSetVersion].options = [
         { name: "Hololive 2nd gen", key: "gen2" },
         { name: "Hololive 3rd gen", key: "gen3" },
         { name: "Hololive 4th gen", key: "gen4" },
+        { name: "Hololive 5th gen", key: "gen5" },
         { name: "Hololive GAMERS", key: "gamers" },
         { name: "Hololive China", key: "china" },
         { name: "Hololive Indonesia", key: "id" },
-        { name: "Holostars", key: "stars"}
+        { name: "Holostars", key: "stars" }
     ]
     },
   {
     name: "Remove Non-JP Holos",
     key: "notjphololive",
-    tooltip: "Check this to remove all non-JP Hololive characters. HyperPlease.",
+    tooltip: "Check this to remove all non-JP Hololive members. HyperPlease.",
   },
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
+    tooltip: "Check this to remove all non-female members."
+  },
+  {
+    name: "Remove Former Members",
+    key: "former",
+    tooltip: "Check this to remove all former members."
   }
 ];
 
@@ -229,6 +235,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Yukihana Lamy",
+        img: "arLeQSp.png",
+        opts: {
+            generation: ["gen5"],
+        }
+    },
+    {
+        name: "Momosuzu Nene",
+        img: "jLmtAJ6.png",
+        opts: {
+            generation: ["gen5"],
+        }
+    },
+    {
+        name: "Shishiro Botan",
+        img: "f698oAj.png",
+        opts: {
+            generation: ["gen5"],
+        }
+    },
+    {
+        name: "Omaru Polka",
+        img: "HGxfwSH.png",
+        opts: {
+            generation: ["gen5"],
+        }
+    },
+    {
         name: "Yogiri",
         img: "8uyCIbp.png",
         opts: {
@@ -365,14 +399,6 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-    name: "Tsukishita Kaoru",
-        img: "MiCGUjf.png",
-        opts: {
-            generation: ["stars"],
-            notgirl: true,
-        }
-    },
-    {
     name: "Kageyama Shien",
         img: "LHG6bKg.png",
         opts: {
@@ -388,4 +414,30 @@ dataSet[dataSetVersion].characterData = [
             notgirl: true,
         }
     },
+    {
+        name: "Hitomi Chris",
+        img: "P2uzny8.png",
+        opts: {
+            generation: ["gen1"],
+            former: true,
+        }
+    },
+    {
+        name: "Yakushiji Suzaku",
+        img: "QSlHaie.png",
+        opts: {
+            generation: ["stars"],
+            notgirl: true,
+            former: true,
+        }
+    },
+    {
+        name: "Tsukishita Kaoru",
+        img: "MiCGUjf.png",
+        opts: {
+            generation: ["stars"],
+            notgirl: true,
+            former: true,
+        }
+    }
 ];
