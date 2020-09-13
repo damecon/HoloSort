@@ -17,6 +17,7 @@ dataSet[dataSetVersion].options = [
         { name: "Hololive GAMERS", key: "gamers" },
         { name: "Hololive China", key: "china" },
         { name: "Hololive Indonesia", key: "id" },
+        { name: "Hololive English", key: "en" },
         { name: "Holostars", key: "stars" }
     ]
     },
@@ -256,13 +257,6 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Mano Aloe",
-        img: "vcZEMzV.png",
-        opts: {
-            generation: ["gen5"],
-        }
-    },
-    {
         name: "Omaru Polka",
         img: "HGxfwSH.png",
         opts: {
@@ -334,10 +328,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-    name: "Airani Iofifteen",
+        name: "Airani Iofifteen",
         img: "hGAkQXZ.png",
         opts: {
             generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Mori Calliope",
+        img: "j8erQSM.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Takanashi Kiara",
+        img: "8jD2gBo.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Ninomae Ina'nis",
+        img: "p9R7Iod.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Gawr Gura",
+        img: "WtmZaXM.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Watson Amelia",
+        img: "1IBgtt8.png",
+        opts: {
+            generation: ["en"],
             notjphololive: true
         }
     },
@@ -427,6 +461,14 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["gen1"],
             former: true,
+        }
+    },
+    {
+        name: "Mano Aloe",
+        img: "vcZEMzV.png",
+        opts: {
+            generation: ["gen5"],
+            former: true
         }
     },
     {
