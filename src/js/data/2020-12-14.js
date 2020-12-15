@@ -1,4 +1,4 @@
-dataSetVersion = "2020-06-22"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2020-12-14"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -15,7 +15,7 @@ dataSet[dataSetVersion].options = [
         { name: "Hololive 4th gen", key: "gen4" },
         { name: "Hololive 5th gen", key: "gen5" },
         { name: "Hololive GAMERS", key: "gamers" },
-        { name: "Hololive China", key: "china" },
+        { name: "Hololive China", key: "cn" },
         { name: "Hololive Indonesia", key: "id" },
         { name: "Hololive English", key: "en" },
         { name: "Holostars", key: "stars" }
@@ -268,48 +268,54 @@ dataSet[dataSetVersion].characterData = [
         name: "Yogiri",
         img: "8uyCIbp.png",
         opts: {
-            generation: ["china"],
-            notjphololive: true
+            generation: ["cn"],
+            notjphololive: true,
+            former: true
         }
     },
     {
     name: "Civia",
     img: "TQwYoKA.png",
         opts: {
-            generation: ["china"],
-            notjphololive: true
+            generation: ["cn"],
+            notjphololive: true,
+            former: true
         }
     },
     {
     name: "Spade Echo",
         img: "HbebtrC.png",
         opts: {
-            generation: ["china"],
-            notjphololive: true
+            generation: ["cn"],
+            notjphololive: true,
+            former: true
         }
     },
     {
     name: "Doris",
         img: "ZXjHi8f.png",
         opts: {
-            generation: ["china"],
-            notjphololive: true
+            generation: ["cn"],
+            notjphololive: true,
+            former: true
         }
     },
     {
     name: "Artia",
         img: "PILecug.png",
         opts: {
-            generation: ["china"],
-            notjphololive: true
+            generation: ["cn"],
+            notjphololive: true,
+            former: true
         }
     },
     {
     name: "Rosalyn",
         img: "dpMTyGF.png",
         opts: {
-            generation: ["china"],
-            notjphololive: true
+            generation: ["cn"],
+            notjphololive: true,
+            former: true
         }
     },
     {
@@ -331,6 +337,30 @@ dataSet[dataSetVersion].characterData = [
     {
         name: "Airani Iofifteen",
         img: "hGAkQXZ.png",
+        opts: {
+            generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Kureiji Ollie",
+        img: "vHDoixD.png",
+        opts: {
+            generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Anya Melfissa",
+        img: "6ZrfPUo.png",
+        opts: {
+            generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Pavolia Reine",
+        img: "DnVmYDq.png",
         opts: {
             generation: ["id"],
             notjphololive: true
