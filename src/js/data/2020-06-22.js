@@ -24,8 +24,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Non-JP Holos",
     key: "notjphololive",
-    tooltip: "Check this to remove all non-JP Hololive members. HyperPlease.",
-    checked: false
+    tooltip: "Check this to remove all non-JP Hololive members. HyperPlease."
   },
   {
     name: "Remove Non-Girls",
