@@ -246,7 +246,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Momosuzu Nene",
-        img: "jLmtAJ6.png",
+        img: "lyNlJW3.png",
         opts: {
             generation: ["gen5"],
         }
