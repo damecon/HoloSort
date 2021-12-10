@@ -4,9 +4,8 @@
     "\\src",
     "\\src\\assets",
     "\\src\\css",
-    "\\src\\js",
-    "\\src\\js\\data"
+    "\\src\\js"
   ],
-  "SelectedNode": "\\src\\js\\data\\2020-12-14.js",
+  "SelectedNode": "\\src\\js\\data.js",
   "PreviewInSolutionExplorer": false
 }
