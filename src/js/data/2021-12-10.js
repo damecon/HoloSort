@@ -505,6 +505,7 @@ dataSet[dataSetVersion].characterData = [
         opts: {
             generation: ["stars"],
             notgirl: true,
+            former: true
         }
     },
     {
