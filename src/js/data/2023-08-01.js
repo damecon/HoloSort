@@ -472,7 +472,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "IRyS",
-        img: "dhZABvz.png",
+        img: "txqogoD.png",
         opts: {
             generation: ["en2"],
             notjphololive: true
