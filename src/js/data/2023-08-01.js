@@ -108,7 +108,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shirakami Fubuki",
-        img: "pXtfQNq.png",
+        img: "Sek22uJ.png",
         opts: {
             generation: ["gen1", "gamers"],
         }
@@ -186,7 +186,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shiranui Flare",
-        img: "1FmxEnk.png",
+        img: "Z4ZOaZU.png",
         opts: {
             generation: ["gen3"],
         }
