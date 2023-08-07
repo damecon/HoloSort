@@ -685,7 +685,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Magni Dezmond",
-        img: "MiCGUjf.png",
+        img: "wba3Wt4.png",
         opts: {
             generation: ["stars"],
             notgirl: true
@@ -709,7 +709,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Gavis Bettel",
-        img: "wba3Wt4.png",
+        img: "Ku4gLGn.png",
         opts: {
             generation: ["stars"],
             notgirl: true
