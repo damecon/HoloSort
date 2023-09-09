@@ -15,6 +15,7 @@ dataSet[dataSetVersion].options = [
             { name: "Hololive 4th gen", key: "gen4" },
             { name: "Hololive 5th gen", key: "gen5" },
             { name: "Hololive 6th gen", key: "gen6" },
+            { name: "Hololive DEV_IS", key: "devis" },
             { name: "Hololive GAMERS", key: "gamers" },
             { name: "Hololive China", key: "cn" },
             { name: "Hololive Indonesia", key: "id" },
@@ -302,6 +303,41 @@ dataSet[dataSetVersion].characterData = [
         img: "eNcW0cS.png",
         opts: {
             generation: ["gen6"],
+        }
+    },
+    {
+        name: "Hiodoshi Ao",
+        img: "KWAQaV1.png",
+        opts: {
+            generation: ["devis"],
+        }
+    },
+    {
+        name: "Otonose Kanade",
+        img: "wVacDKp.png",
+        opts: {
+            generation: ["devis"],
+        }
+    },
+    {
+        name: "Ichijou Ririka",
+        img: "EadnOh9.png",
+        opts: {
+            generation: ["devis"],
+        }
+    },
+    {
+        name: "Juufuutei Raden",
+        img: "B57CxJ1.png",
+        opts: {
+            generation: ["devis"],
+        }
+    },
+    {
+        name: "Todoroki Hajime",
+        img: "wO0BWC9.png",
+        opts: {
+            generation: ["devis"],
         }
     },
     {
