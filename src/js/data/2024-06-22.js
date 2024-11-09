@@ -15,7 +15,8 @@ dataSet[dataSetVersion].options = [
             { name: "Hololive 4th gen", key: "gen4" },
             { name: "Hololive 5th gen", key: "gen5" },
             { name: "Hololive 6th gen", key: "gen6" },
-            { name: "Hololive DEV_IS", key: "devis" },
+            { name: "Hololive ReGLOSS", key: "regloss" },
+            { name: "Hololive FLOW GLOW", key: "flowglow" },
             { name: "Hololive GAMERS", key: "gamers" },
             { name: "Hololive China", key: "cn" },
             { name: "Hololive Indonesia", key: "id" },
@@ -149,6 +150,7 @@ dataSet[dataSetVersion].characterData = [
         img: "GEAHYcy.png",
         opts: {
             generation: ["gen2"],
+            former: true
         }
     },
     {
@@ -311,35 +313,70 @@ dataSet[dataSetVersion].characterData = [
         name: "Hiodoshi Ao",
         img: "KWAQaV1.png",
         opts: {
-            generation: ["devis"],
+            generation: ["regloss"],
         }
     },
     {
         name: "Otonose Kanade",
         img: "wVacDKp.png",
         opts: {
-            generation: ["devis"],
+            generation: ["regloss"],
         }
     },
     {
         name: "Ichijou Ririka",
         img: "EadnOh9.png",
         opts: {
-            generation: ["devis"],
+            generation: ["regloss"],
         }
     },
     {
         name: "Juufuutei Raden",
         img: "B57CxJ1.png",
         opts: {
-            generation: ["devis"],
+            generation: ["regloss"],
         }
     },
     {
         name: "Todoroki Hajime",
         img: "wO0BWC9.png",
         opts: {
-            generation: ["devis"],
+            generation: ["regloss"],
+        }
+    },
+    {
+        name: "Isaki Riona",
+        img: "DchAQtL.png",
+        opts: {
+            generation: ["flowglow"],
+        }
+    },
+    {
+        name: "Koganei Niko",
+        img: "AhFZwYl.png",
+        opts: {
+            generation: ["flowglow"],
+        }
+    },
+    {
+        name: "Mizumaya Su",
+        img: "OBPKp7p.png",
+        opts: {
+            generation: ["flowglow"],
+        }
+    },
+    {
+        name: "Rindo Chihaya",
+        img: "OPJodPs.png",
+        opts: {
+            generation: ["flowglow"],
+        }
+    },
+    {
+        name: "Kikirara Vivi",
+        img: "TyyXagO.png",
+        opts: {
+            generation: ["flowglow"],
         }
     },
     {
@@ -830,7 +867,8 @@ dataSet[dataSetVersion].characterData = [
         img: "xnY9AYc.png",
         opts: {
             generation: ["stars"],
-            notgirl: true
+            notgirl: true,
+            former: true
         }
     },
     {
