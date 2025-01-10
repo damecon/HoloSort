@@ -359,7 +359,7 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Mizumaya Su",
+        name: "Mizumiya Su",
         img: "OBPKp7p.png",
         opts: {
             generation: ["flowglow"],
