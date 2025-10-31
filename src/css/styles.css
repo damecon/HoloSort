@@ -284,3 +284,8 @@ a:hover {
 a:visited {
   color: #6600FF;
 }
+
+.scrollable-section {
+  height: 100px; /* or any value */
+  overflow-y: auto;
+}
