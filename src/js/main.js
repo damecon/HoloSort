@@ -74,9 +74,12 @@ function init() {
   document.querySelector('.clearsave').addEventListener('click', clearProgress);
 
   /** Define keyboard controls (up/down/left/right vimlike k/j/h/l). */
-  document.addEventListener('keypress', (ev) => {
+  document.addEventListener('keydown', (ev) => {
+    if (ev.ctrlKey || ev.metaKey || ev.altKey || ev.repeat) { return; }
+
     /** If sorting is in progress. */
     if (timestamp && !timeTaken && !loading && choices.length === battleNo - 1) {
+      if (ev.key.startsWith('Arrow')) { ev.preventDefault(); } // Stop the page scrolling while picking.
       switch(ev.key) {
         case 's': case '3':                   saveProgress('Progress'); break;
         case 'h': case 'ArrowLeft':           pick('left'); break;
@@ -289,10 +292,16 @@ function display() {
 
   progressBar(`Battle No. ${battleNo}`, percent);
 
+  document.querySelectorAll('.sort.image.title').forEach(el => el.classList.remove('title'));
   document.querySelector('.left.sort.image').src = leftChar.img;
   document.querySelector('.right.sort.image').src = rightChar.img;
 
-  
+  /** Outline the image box with the character's color 1 and the name box with color 2 (hololive colors if unknown). */
+  [['left', leftChar], ['right', rightChar]].forEach(([side, char]) => {
+    const [imageColor = '', nameColor = ''] = char.colors || [];
+    document.querySelector(`.${side}.sort.image`).style.borderColor = imageColor;
+    document.querySelector(`.${side}.sort.text`).style.borderColor = nameColor;
+  });
 
   document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name);
   document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name);
@@ -502,9 +511,12 @@ function result(imageNum = 3) {
   resultTable.innerHTML = header;
   timeElem.innerHTML = timeStr;
 
+  const rankedCharacters = [];
+
   characterDataToSort.forEach((val, idx) => {
     const characterIndex = finalSortedIndexes[idx];
     const character = characterDataToSort[characterIndex];
+    rankedCharacters.push({ char: character, rank: rankNum });
     if (imageDisplay-- > 0) {
       resultTable.insertAdjacentHTML('beforeend', imgRes(character, rankNum));
     } else {
@@ -521,6 +533,91 @@ function result(imageNum = 3) {
       }
     }
   });
+
+  showGroupStats(rankedCharacters);
+
+  /** Image rows change height as they load, which changes how many columns are needed, so resize on each load. */
+  sizeResultList(resultTable);
+  resultTable.querySelectorAll('img').forEach(img => {
+    img.addEventListener('load', () => sizeResultList(resultTable));
+  });
+}
+
+/**
+ * Sizes the results list to fit its wrapped columns. They have no intrinsic width, so without this the list
+ * can't sit beside the stats without overlapping.
+ *
+ * @param {HTMLElement} list
+ */
+function sizeResultList(list) {
+  list.style.width = '0';
+  const left = list.getBoundingClientRect().left;
+  let right = left;
+  list.querySelectorAll(':scope > .result').forEach(item => {
+    right = Math.max(right, item.getBoundingClientRect().right);
+  });
+  list.style.width = `${Math.ceil(right - left) + 5}px`;
+}
+
+/**
+ * Shows which gen ranked highest overall, based on the final rankings.
+ *
+ * Each character is scored from 1 (ranked first) to 0 (ranked last), and a group's score is the average of its
+ * members' scores, so larger groups are not favored just for having more members.
+ *
+ * @param {{char: CharData[number], rank: number}[]} rankedCharacters Every sorted character with their final rank.
+ */
+function showGroupStats(rankedCharacters) {
+  const statsElem = document.querySelector('.group.stats');
+  const total = rankedCharacters.length;
+  const genOpt = options.find(opt => opt.key === 'generation');
+  const groupNames = {};
+  if (genOpt) genOpt.sub.forEach(sub => groupNames[sub.key] = sub.name);
+
+  const groups = {};
+  rankedCharacters.forEach(({ char, rank }) => {
+    (char.opts.generation || []).forEach(key => {
+      const group = groups[key] || (groups[key] = { name: groupNames[key] || key, members: [] });
+      group.members.push({ name: char.name, rank });
+    });
+  });
+
+  const stats = Object.values(groups).map(group => {
+    const ranks = group.members.map(m => m.rank);
+    const avgRank = ranks.reduce((a, b) => a + b, 0) / ranks.length;
+    const score = group.members.reduce((sum, m) => sum + (total > 1 ? (total - m.rank) / (total - 1) : 1), 0) / ranks.length;
+    return {
+      name: group.name,
+      count: ranks.length,
+      avgRank,
+      score,
+      best: group.members.reduce((a, b) => (b.rank < a.rank ? b : a)),
+      topTen: ranks.filter(r => r <= 10).length
+    };
+  }).sort((a, b) => b.score - a.score || a.avgRank - b.avgRank);
+
+  if (stats.length < 2) {
+    statsElem.style.display = 'none';
+    return;
+  }
+
+  /** Prefer groups with at least two members for the headline, since one lucky member shouldn't decide it. */
+  const favorite = stats.find(s => s.count >= 2) || stats[0];
+  const rows = stats.map(s => `<tr>
+    <td>${s.name}</td>
+    <td>${s.count}</td>
+    <td>${s.avgRank.toFixed(1)}</td>
+    <td>${s.topTen}</td>
+    <td><div class="group bar"><div style="width: ${Math.round(s.score * 100)}%"></div></div></td>
+  </tr>`).join('');
+
+  statsElem.innerHTML = `<h3>Your favorite gen: <strong>${favorite.name}</strong></h3>
+    <p>Their ${favorite.count} members average rank #${favorite.avgRank.toFixed(1)} of ${total}, led by ${favorite.best.name} at #${favorite.best.rank}.</p>
+    <div class="group table-wrap"><table>
+      <thead><tr><th>Gen</th><th>Members</th><th>Avg. rank</th><th>Top 10</th><th>Score</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  statsElem.style.display = 'block';
 }
 
 /** Undo previous choice. */
@@ -662,6 +759,7 @@ function populateOptions() {
   options.forEach(opt => {
     if ('sub' in opt) {
       optList.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked));
+      optList.insertAdjacentHTML('beforeend', `<div class="large option"><button id="toggleall-${opt.key}" type="button" ${opt.checked === false ? 'disabled' : ''}>Check/Uncheck All</button></div>`);
       opt.sub.forEach((subopt, subindex) => {
         optList.insertAdjacentHTML('beforeend', optInsert(subopt.name, `${opt.key}-${subindex}`, subopt.tooltip, subopt.checked, opt.checked === false));
       });
@@ -669,11 +767,22 @@ function populateOptions() {
 
       const groupbox = document.getElementById(`cbgroup-${opt.key}`);
 
+      const toggleAll = document.getElementById(`toggleall-${opt.key}`);
+      const subboxes = () => opt.sub.map((subopt, subindex) => document.getElementById(`cb-${opt.key}-${subindex}`));
+
       groupbox.parentElement.addEventListener('click', () => {
+        toggleAll.disabled = !groupbox.checked;
         opt.sub.forEach((subopt, subindex) => {
           document.getElementById(`cb-${opt.key}-${subindex}`).disabled = !groupbox.checked;
           if (groupbox.checked) { document.getElementById(`cb-${opt.key}-${subindex}`).checked = true; }
         });
+      });
+
+      /** Unchecks every sub option if all are checked, otherwise checks them all. */
+      toggleAll.addEventListener('click', () => {
+        const boxes = subboxes();
+        const checkAll = !boxes.every(box => box.checked);
+        boxes.forEach(box => box.checked = checkAll);
       });
     } else {
       optList.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked));
@@ -780,7 +889,7 @@ function preloadImages() {
   };
 
   return Promise.all(characterDataToSort.map(async (char, idx) => {
-    characterDataToSort[idx].img = await loadImage(imageRoot + char.img);
+    characterDataToSort[idx].img = await loadImage(char.img.startsWith('http') ? char.img : imageRoot + char.img);
   }));
 }
 

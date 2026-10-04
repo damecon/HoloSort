@@ -12,13 +12,14 @@ body {
 
 .progress {
   margin: 1em auto;
-  width: 500px;
+  width: 720px;
+  max-width: 100%;
   display: none;
 }
 
 .progressbar {
   position: relative;
-  width: 492px;
+  width: calc(100% - 8px);
   border: 1px solid black;
   padding: 3px;
   margin: 2px 0px;
@@ -41,9 +42,12 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 240px 1fr 240px;
   grid-gap: 5px;
-  width: 420px;
+  --hololive-color1: #19BEFF;
+  --hololive-color2: #00DCF5;
+  width: 720px;
+  max-width: 100%;
 }
 
 .button {
@@ -111,15 +115,27 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: contain;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
+/* Start screen: one key visual split across both boxes, shown until sorting begins. */
+.sorter > .image.title {
+  aspect-ratio: 600 / 963;
+  object-fit: cover;
+  cursor: default;
+}
+
+.sorter > .left.image.title { object-position: left center; }
+.sorter > .right.image.title { object-position: right center; }
+
 .sorter > .text {
-  width: 120px;
+  width: 100%;
   height: 60px;
   display: none;
 }
@@ -134,12 +150,14 @@ body {
 
 .sorter > .left {
   grid-column: 1 / 2;
-  border: 1px solid #000000;
+  border: 3px solid var(--hololive-color1);
+  box-sizing: border-box;
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
-  border: 1px solid #000000;
+  border: 3px solid var(--hololive-color1);
+  box-sizing: border-box;
 }
 
 .options {
@@ -185,12 +203,57 @@ label:hover {
   font-size: 0.75em;
 }
 
+.group.stats {
+  display: none;
+  flex: 0 0 340px;
+  margin: 2em 0;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+.group.stats h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.group.table-wrap {
+  overflow-x: auto;
+  margin-top: 1em;
+}
+
+.group.stats table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.group.stats th, .group.stats td {
+  border: 1px solid #000;
+  padding: 3px 8px;
+  text-align: left;
+}
+
+.group.stats th {
+  background: #eee;
+}
+
+.group.bar {
+  width: 60px;
+  height: 10px;
+  border: 1px solid #000;
+}
+
+.group.bar > div {
+  height: 100%;
+  background-color: lightgreen;
+}
+
 .results {
   font-size: 0.75em;
   display: flex;
   align-content: flex-start;
-  width: 80%;
-  margin: 2em auto;
+  flex: none;
+  margin: 2em 0;
 }
 
 @media all and (min-width: 600px) {
@@ -204,6 +267,7 @@ label:hover {
 @media all and (max-width: 600px) {
   .results {
     flex-flow: column nowrap;
+    align-items: center;
   }
 }
 
@@ -288,4 +352,28 @@ a:visited {
 .scrollable-section {
   height: 100px; /* or any value */
   overflow-y: auto;
+}
+.options > .large.option button {
+  font-size: inherit;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.options > .large.option button:disabled {
+  cursor: default;
+}
+
+/* Name boxes use hololive's second color; image boxes keep the first. */
+.sorter > .text {
+  border-color: var(--hololive-color2);
+}
+
+/* Favorite-group stats and the ranking list sit side by side, stacking when the page is too narrow. */
+.results-layout {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0 2em;
+  max-width: 100%;
 }
