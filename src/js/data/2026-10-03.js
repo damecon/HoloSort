@@ -334,6 +334,7 @@ dataSet[dataSetVersion].characterData = [
         tags: ["white", "angel", "gremlin"],
         opts: {
             generation: ["gen4"],
+            former: true
         }
     },
     {
