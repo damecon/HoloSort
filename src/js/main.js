@@ -889,7 +889,7 @@ function preloadImages() {
   };
 
   return Promise.all(characterDataToSort.map(async (char, idx) => {
-    characterDataToSort[idx].img = await loadImage(char.img.startsWith('http') ? char.img : imageRoot + char.img);
+    characterDataToSort[idx].img = await loadImage(/^(https?:|src\/)/.test(char.img) ? char.img : imageRoot + char.img);
   }));
 }
 

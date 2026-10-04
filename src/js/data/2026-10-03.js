@@ -51,7 +51,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
     {
         name: "Tokino Sora",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/38/Tokino_Sora_2026_Portrait.png/revision/latest/scale-to-width-down/500?cb=20260907164605",
+        img: "src/assets/chars/Tokino_Sora_2026_Portrait.png",
         colors: ["#4638AA", "#2A69FB"],
         debut: 2017,
         tags: ["brown", "idol", "daisenpai"],
@@ -61,7 +61,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Roboco",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e3/Robocosan_2022_Portrait.png/revision/latest/scale-to-width-down/500?cb=20221212164207",
+        img: "src/assets/chars/Robocosan_2022_Portrait.png",
         colors: ["#A36694", "#E198B0"],
         debut: 2018,
         tags: ["brown", "robot", "high-spec"],
@@ -71,7 +71,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Sakura Miko",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/7f/Sakura_Miko_2020_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210802134259",
+        img: "src/assets/chars/Sakura_Miko_2020_Portrait.png",
         colors: ["#FF4B74", "#FF9CB4"],
         height: 152,
         debut: 2018,
@@ -82,7 +82,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hoshimachi Suisei",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Hoshimachi_Suisei_2019_Portrait.png/revision/latest/scale-to-width-down/500?cb=20191205132210",
+        img: "src/assets/chars/Hoshimachi_Suisei_2019_Portrait.png",
         colors: ["#454A93", "#7BACEC"],
         height: 160,
         debut: 2018,
@@ -93,7 +93,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "AZKi",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a4/AZKi_2022_Portrait.png/revision/latest/scale-to-width-down/500?cb=20221115130810",
+        img: "src/assets/chars/AZKi_2022_Portrait.png",
         colors: ["#FA3689", "#FA3689"],
         debut: 2018,
         tags: ["pink", "idol", "musician"],
@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Akai Haato",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/77/Akai_Haato_Portrait.png/revision/latest/scale-to-width-down/500?cb=20260831230151",
+        img: "src/assets/chars/Akai_Haato_Portrait.png",
         colors: ["#D9062A", "#FC123F"],
         height: 154,
         debut: 2018,
@@ -114,7 +114,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yozora Mel",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/cf/Yozora_Mel_Portrait.png/revision/latest/scale-to-width-down/500?cb=20190215175632",
+        img: "src/assets/chars/Yozora_Mel_Portrait.png",
         colors: ["#FDD531", "#FF7709"],
         debut: 2018,
         tags: ["blonde", "undead"],
@@ -125,7 +125,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Natsuiro Matsuri",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/f/f7/Natsuiro_Matsuri_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220730002625",
+        img: "src/assets/chars/Natsuiro_Matsuri_Portrait.png",
         colors: ["#FF5606", "#FFA227"],
         debut: 2018,
         tags: ["orange", "gremlin", "lewd"],
@@ -135,7 +135,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Aki Rosenthal",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/5/59/Aki_Rosenthal_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250302212307",
+        img: "src/assets/chars/Aki_Rosenthal_Portrait.png",
         colors: ["#4982FE", "#F93B88"],
         debut: 2018,
         tags: ["blonde", "elf", "dancing"],
@@ -145,7 +145,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shirakami Fubuki",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/45/Shirakami_Fubuki_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230627082355",
+        img: "src/assets/chars/Shirakami_Fubuki_-_Portrait.png",
         colors: ["#53C7EA", "#76DFFF"],
         debut: 2018,
         tags: ["white", "ears"],
@@ -155,7 +155,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Oozora Subaru",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/49/Oozora_Subaru_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250907105359",
+        img: "src/assets/chars/Oozora_Subaru_Portrait.png",
         colors: ["#BDE717", "#E0FF2C"],
         debut: 2018,
         tags: ["idol"],
@@ -165,7 +165,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yuzuki Choco",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a8/Yuzuki_Choco_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250630001247",
+        img: "src/assets/chars/Yuzuki_Choco_Portrait.png",
         colors: ["#FE739C", "#FFA4CF"],
         debut: 2018,
         tags: ["mature", "asmr"],
@@ -175,7 +175,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Murasaki Shion",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3f/Murasaki_Shion_Portrait.png/revision/latest/scale-to-width-down/500?cb=20190702115949",
+        img: "src/assets/chars/Murasaki_Shion_Portrait.png",
         colors: ["#8565FC", "#8565FC"],
         debut: 2018,
         tags: ["purple", "gaki"],
@@ -186,7 +186,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Nakiri Ayame",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Nakiri_Ayame_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250221231720",
+        img: "src/assets/chars/Nakiri_Ayame_Portrait.png",
         colors: ["#9C3741", "#9C3741"],
         debut: 2018,
         tags: ["white", "horns"],
@@ -196,7 +196,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Minato Aqua",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Minato_Aqua_Portrait.png/revision/latest/scale-to-width-down/500?cb=20190215180705",
+        img: "src/assets/chars/Minato_Aqua_Portrait.png",
         colors: ["#404B83", "#F5BEDA"],
         height: 148,
         debut: 2018,
@@ -208,7 +208,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ookami Mio",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/1/18/Ookami_Mio_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250930005406",
+        img: "src/assets/chars/Ookami_Mio_Portrait.png",
         colors: ["#DC1935", "#FF314A"],
         debut: 2018,
         tags: ["black", "ears", "mature"],
@@ -218,7 +218,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Nekomata Okayu",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4b/Nekomata_Okayu_Portrait.png/revision/latest/scale-to-width-down/500?cb=20190405185910",
+        img: "src/assets/chars/Nekomata_Okayu_Portrait.png",
         colors: ["#B190FA", "#BC5BC6"],
         height: 152,
         debut: 2019,
@@ -229,7 +229,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Inugami Korone",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Inugami_Korone_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250930010842",
+        img: "src/assets/chars/Inugami_Korone_Portrait.png",
         colors: ["#A7492F", "#FAE13F"],
         height: 156,
         debut: 2019,
@@ -240,7 +240,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Usada Pekora",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/95/Usada_Pekora_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220729230439",
+        img: "src/assets/chars/Usada_Pekora_-_Portrait.png",
         colors: ["#7DC4FC", "#7DC4FC"],
         debut: 2019,
         tags: ["ears", "gremlin"],
@@ -250,7 +250,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Uruha Rushia",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a2/Uruha_Rushia_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20240201054019",
+        img: "src/assets/chars/Uruha_Rushia_-_Portrait.png",
         colors: ["#04E3CB", "#255073"],
         height: 143,
         debut: 2019,
@@ -262,7 +262,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shiranui Flare",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/62/Shiranui_Flare_December_2021_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250928160451",
+        img: "src/assets/chars/Shiranui_Flare_December_2021_Portrait.png",
         colors: ["#DC3813", "#FF5028"],
         height: 158,
         debut: 2019,
@@ -273,7 +273,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shirogane Noel",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/0/03/Shirogane_Noel_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250708223806",
+        img: "src/assets/chars/Shirogane_Noel_-_Portrait.png",
         colors: ["#AEBBC3", "#2B3E5C"],
         height: 158,
         debut: 2019,
@@ -284,7 +284,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Houshou Marine",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4e/Houshou_Marine_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250512200250",
+        img: "src/assets/chars/Houshou_Marine_-_Portrait.png",
         colors: ["#A72413", "#CA3C28"],
         height: 150,
         debut: 2019,
@@ -295,7 +295,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Tsunomaki Watame",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Tsunomaki_Watame_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250321012210",
+        img: "src/assets/chars/Tsunomaki_Watame_-_Portrait.png",
         colors: ["#F6ECA5", "#F6ECA5"],
         debut: 2019,
         tags: ["blonde", "horns"],
@@ -305,7 +305,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Tokoyami Towa",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Tokoyami_Towa_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250416210730",
+        img: "src/assets/chars/Tokoyami_Towa_-_Portrait.png",
         colors: ["#7B66A8", "#7B66A8"],
         height: 150,
         debut: 2020,
@@ -316,7 +316,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kiryu Coco",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Kiryu_Coco_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20191228224253",
+        img: "src/assets/chars/Kiryu_Coco_-_Portrait.png",
         colors: ["#FD935F", "#FD935F"],
         height: 180,
         debut: 2019,
@@ -328,7 +328,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Amane Kanata",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6c/Amane_Kanata_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250410202638",
+        img: "src/assets/chars/Amane_Kanata_-_Portrait.png",
         colors: ["#367CE5", "#367CE5"],
         debut: 2019,
         tags: ["white", "angel", "gremlin"],
@@ -338,7 +338,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Himemori Luna",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/2/22/Himemori_Luna_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250410204015",
+        img: "src/assets/chars/Himemori_Luna_-_Portrait.png",
         colors: ["#E77DBC", "#E77DBC"],
         height: 140,
         debut: 2020,
@@ -349,7 +349,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yukihana Lamy",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/e/ee/Yukihana_Lamy_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250410205454",
+        img: "src/assets/chars/Yukihana_Lamy_Portrait.png",
         colors: ["#6CCDF8", "#6CCDF8"],
         height: 158,
         debut: 2020,
@@ -360,7 +360,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Momosuzu Nene",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/bf/Momosuzu_Nene_2021_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250410210056",
+        img: "src/assets/chars/Momosuzu_Nene_2021_Portrait.png",
         colors: ["#FFB65D", "#FFE5BD"],
         height: 159,
         debut: 2020,
@@ -371,7 +371,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shishiro Botan",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/d/d9/Shishiro_Botan_Portrait.png/revision/latest/scale-to-width-down/500?cb=20260103214223",
+        img: "src/assets/chars/Shishiro_Botan_Portrait.png",
         colors: ["#A4E5CF", "#A4E5CF"],
         height: 166,
         debut: 2020,
@@ -382,7 +382,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Omaru Polka",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/33/Omaru_Polka_Portrait.png/revision/latest/scale-to-width-down/500?cb=20260103232033",
+        img: "src/assets/chars/Omaru_Polka_Portrait.png",
         colors: ["#AB0808", "#CF2830"],
         height: 153,
         debut: 2020,
@@ -393,7 +393,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "La+ Darkness",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/7b/La%2B_Darknesss_Portrait.png/revision/latest/scale-to-width-down/500?cb=20211202201644",
+        img: "src/assets/chars/La__Darknesss_Portrait.png",
         colors: ["#441495", "#936CC6"],
         height: 139,
         debut: 2021,
@@ -404,7 +404,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Takane Lui",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/0/04/Takane_Lui_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250614200325",
+        img: "src/assets/chars/Takane_Lui_Portrait.png",
         colors: ["#28040D", "#831550"],
         height: 161,
         debut: 2021,
@@ -414,7 +414,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hakui Koyori",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c2/Hakui_Koyori_Portrait.png/revision/latest/scale-to-width-down/500?cb=20211202201357",
+        img: "src/assets/chars/Hakui_Koyori_Portrait.png",
         colors: ["#FE68AD", "#FFACD3"],
         height: 153,
         debut: 2021,
@@ -425,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Sakamata Chloe",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a5/Sakamata_Chloe_Portrait.png/revision/latest/scale-to-width-down/500?cb=20211202204337",
+        img: "src/assets/chars/Sakamata_Chloe_Portrait.png",
         colors: ["#AB0E0C", "#CF4C4A"],
         height: 148,
         debut: 2021,
@@ -437,7 +437,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kazama Iroha",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/96/Kazama_Iroha_Portrait.png/revision/latest/scale-to-width-down/500?cb=20211202200910",
+        img: "src/assets/chars/Kazama_Iroha_Portrait.png",
         colors: ["#44BFB7", "#93DCD8"],
         height: 156,
         debut: 2021,
@@ -447,7 +447,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hiodoshi Ao",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/d/d3/Hiodoshi_Ao_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230908194658",
+        img: "src/assets/chars/Hiodoshi_Ao_Portrait.png",
         colors: ["#1D3467", "#1D3467"],
         debut: 2023,
         tags: ["blue", "ikemen"],
@@ -458,7 +458,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Otonose Kanade",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/ac/Otonose_Kanade_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230908194806",
+        img: "src/assets/chars/Otonose_Kanade_Portrait.png",
         colors: ["#FFE7B5", "#FFE7B5"],
         debut: 2023,
         tags: ["blonde", "singer"],
@@ -468,7 +468,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ichijou Ririka",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/8/87/Ichijou_Ririka_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230908195108",
+        img: "src/assets/chars/Ichijou_Ririka_Portrait.png",
         colors: ["#F47DA9", "#F47DA9"],
         height: 162,
         debut: 2023,
@@ -479,7 +479,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Juufuutei Raden",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/2/25/Juufuutei_Raden_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230908195248",
+        img: "src/assets/chars/Juufuutei_Raden_Portrait.png",
         colors: ["#3C7C71", "#3C7C71"],
         height: 159,
         debut: 2023,
@@ -490,7 +490,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Todoroki Hajime",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e1/Todoroki_Hajime_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230908195359",
+        img: "src/assets/chars/Todoroki_Hajime_Portrait.png",
         colors: ["#B6B9FF", "#B6B9FF"],
         height: 155,
         debut: 2023,
@@ -501,7 +501,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Isaki Riona",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/d/da/Isaki_Riona_Portrait.png/revision/latest/scale-to-width-down/500?cb=20241107060152",
+        img: "src/assets/chars/Isaki_Riona_Portrait.png",
         colors: ["#C92655", "#FE3480"],
         debut: 2024,
         opts: {
@@ -510,7 +510,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Koganei Niko",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/1/13/Koganei_Niko_Portrait.png/revision/latest/scale-to-width-down/500?cb=20241107055708",
+        img: "src/assets/chars/Koganei_Niko_Portrait.png",
         colors: ["#F25E11", "#F58017"],
         height: 172,
         debut: 2024,
@@ -520,7 +520,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Mizumiya Su",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3b/Mizumiya_Su_Portrait.png/revision/latest/scale-to-width-down/500?cb=20241107055126",
+        img: "src/assets/chars/Mizumiya_Su_Portrait.png",
         colors: ["#71E5FF", "#64CCE4"],
         debut: 2024,
         opts: {
@@ -529,7 +529,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Rindo Chihaya",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/8/81/Rindo_Chihaya_Portrait.png/revision/latest/scale-to-width-down/500?cb=20241107054628",
+        img: "src/assets/chars/Rindo_Chihaya_Portrait.png",
         colors: ["#37BABA", "#2C8C8B"],
         debut: 2024,
         opts: {
@@ -538,7 +538,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kikirara Vivi",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/5/54/Kikirara_Vivi_Portrait.png/revision/latest/scale-to-width-down/500?cb=20241107054043",
+        img: "src/assets/chars/Kikirara_Vivi_Portrait.png",
         colors: ["#FF90CC", "#E6499B"],
         height: 161,
         debut: 2024,
@@ -548,7 +548,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yogiri",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/bb/Yogiri_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20191205143652",
+        img: "src/assets/chars/Yogiri_-_Portrait.png",
         colors: ["#C71944", "#C71944"],
         height: 164,
         debut: 2019,
@@ -560,7 +560,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Civia",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c5/Civia_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200428061136",
+        img: "src/assets/chars/Civia_-_Portrait.png",
         colors: ["#7AC7FF", "#7AC7FF"],
         height: 157,
         debut: 2019,
@@ -572,7 +572,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Spade Echo",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/90/Spade_Echo_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200428063924",
+        img: "src/assets/chars/Spade_Echo_-_Portrait.png",
         colors: ["#FF9AC2", "#F2D6E7"],
         height: 145,
         debut: 2020,
@@ -584,7 +584,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Doris",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/aa/Doris_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200515132603",
+        img: "src/assets/chars/Doris_-_Portrait.png",
         colors: ["#7BD3FC", "#7BD3FC"],
         height: 156,
         debut: 2020,
@@ -596,7 +596,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Artia",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/d/d6/Artia_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200428064857",
+        img: "src/assets/chars/Artia_-_Portrait.png",
         colors: ["#A59AC2", "#A59AC2"],
         height: 144,
         debut: 2020,
@@ -608,7 +608,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Rosalyn",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/b2/Rosalyn_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200517145422",
+        img: "src/assets/chars/Rosalyn_-_Portrait.png",
         colors: ["#354F71", "#354F71"],
         debut: 2020,
         opts: {
@@ -619,7 +619,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ayunda Risu",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/d/de/Ayunda_Risu_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200427142410",
+        img: "src/assets/chars/Ayunda_Risu_-_Portrait.png",
         colors: ["#EF8381", "#F6BBBB"],
         height: 153,
         debut: 2020,
@@ -631,7 +631,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Moona Hoshinova",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/94/Moona_Hoshinova_Portrait.jpg/revision/latest/scale-to-width-down/500?cb=20200411161426",
+        img: "src/assets/chars/Moona_Hoshinova_Portrait.jpg",
         colors: ["#B59DDD", "#CBB3FF"],
         height: 165,
         debut: 2020,
@@ -643,7 +643,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Airani Iofifteen",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/cb/Airani_Iofifteen_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200427135833",
+        img: "src/assets/chars/Airani_Iofifteen_-_Portrait.png",
         colors: ["#BEF167", "#495370"],
         height: 150,
         debut: 2020,
@@ -654,7 +654,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kureiji Ollie",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/f/f4/Kureiji_Ollie_Portrait.png/revision/latest/scale-to-width-down/500?cb=20201201052431",
+        img: "src/assets/chars/Kureiji_Ollie_Portrait.png",
         colors: ["#B7030E", "#D60E54"],
         height: 162,
         debut: 2020,
@@ -666,7 +666,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Anya Melfissa",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/f/ff/Anya_Melfissa_Portrait.jpg/revision/latest/scale-to-width-down/500?cb=20201201054912",
+        img: "src/assets/chars/Anya_Melfissa_Portrait.jpg",
         colors: ["#9E7C7E", "#DAB75B"],
         debut: 2020,
         opts: {
@@ -676,7 +676,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Pavolia Reine",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/d/d2/Pavolia_Reine_Portrait.png/revision/latest/scale-to-width-down/500?cb=20201201063050",
+        img: "src/assets/chars/Pavolia_Reine_Portrait.png",
         colors: ["#2A64AE", "#6FCCBB"],
         height: 172,
         debut: 2020,
@@ -688,7 +688,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Vesia Zeta",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/b6/Vestia_Zeta_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220324053909",
+        img: "src/assets/chars/Vestia_Zeta_Portrait.png",
         colors: ["#97A1AE", "#6073B5"],
         debut: 2022,
         opts: {
@@ -698,7 +698,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kaela Kovalskia",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/61/Kaela_Kovalskia_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250326164943",
+        img: "src/assets/chars/Kaela_Kovalskia_Portrait.png",
         colors: ["#DC2528", "#202020"],
         height: 173,
         debut: 2022,
@@ -710,7 +710,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kobo Kanaeru",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3b/Kobo_Kanaeru_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220324054528",
+        img: "src/assets/chars/Kobo_Kanaeru_Portrait.png",
         colors: ["#161C4F", "#CDEDFC"],
         height: 150,
         debut: 2022,
@@ -721,7 +721,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Mori Calliope",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/39/Mori_Calliope_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250925202036",
+        img: "src/assets/chars/Mori_Calliope_Portrait.png",
         colors: ["#A1020B", "#C90D40"],
         height: 167,
         debut: 2020,
@@ -733,7 +733,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Takanashi Kiara",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/2/28/Takanashi_Kiara_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250925202735",
+        img: "src/assets/chars/Takanashi_Kiara_Portrait.png",
         colors: ["#DC3907", "#FF511C"],
         height: 165,
         debut: 2020,
@@ -745,7 +745,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ninomae Ina'nis",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/46/Ninomae_Ina%27nis_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250925203523",
+        img: "src/assets/chars/Ninomae_Ina_nis_Portrait.png",
         colors: ["#3F3E69", "#62567E"],
         height: 157,
         debut: 2020,
@@ -757,7 +757,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Gawr Gura",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4f/Gawr_Gura_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250925210601",
+        img: "src/assets/chars/Gawr_Gura_Portrait.png",
         colors: ["#5D81C7", "#5D81C7"],
         height: 141,
         debut: 2020,
@@ -770,7 +770,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Watson Amelia",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/97/Watson_Amelia_Portrait.png/revision/latest/scale-to-width-down/500?cb=20250925204645",
+        img: "src/assets/chars/Watson_Amelia_Portrait.png",
         colors: ["#F8DB92", "#F8DB92"],
         height: 150,
         debut: 2020,
@@ -783,7 +783,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "IRyS",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/5/5b/IRyS_2022_Portrait.png/revision/latest/scale-to-width-down/500?cb=20221211122608",
+        img: "src/assets/chars/IRyS_2022_Portrait.png",
         colors: ["#F8055D", "#3C0024"],
         debut: 2021,
         tags: ["pink", "horns"],
@@ -794,7 +794,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Tsukumo Sana",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/69/Tsukumo_Sana_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210902020048",
+        img: "src/assets/chars/Tsukumo_Sana_Portrait.png",
         colors: ["#FEDE4A", "#F2D7C4"],
         height: 169,
         debut: 2021,
@@ -806,7 +806,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ceres Fauna",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/73/Ceres_Fauna_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210902015951",
+        img: "src/assets/chars/Ceres_Fauna_Portrait.png",
         colors: ["#A4E5CF", "#F6BCB8"],
         height: 164,
         debut: 2021,
@@ -819,7 +819,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ouro Kronii",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/b2/Ouro_Kronii_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210817022852",
+        img: "src/assets/chars/Ouro_Kronii_Portrait.png",
         colors: ["#0869EC", "#2F2E31"],
         height: 168,
         debut: 2021,
@@ -831,7 +831,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Nanashi Mumei",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/8/86/Nanashi_Mumei_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210817024548",
+        img: "src/assets/chars/Nanashi_Mumei_Portrait.png",
         colors: ["#998274", "#4799A5"],
         height: 156,
         debut: 2021,
@@ -844,7 +844,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hakos Baelz",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a3/Hakos_Baelz_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210817022252",
+        img: "src/assets/chars/Hakos_Baelz_Portrait.png",
         colors: ["#D2251E", "#322D2A"],
         height: 149,
         debut: 2021,
@@ -856,7 +856,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Shiori Novella",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/2/26/Shiori_Novella_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230726054616",
+        img: "src/assets/chars/Shiori_Novella_Portrait.png",
         colors: ["#373741", "#B8A0CD"],
         height: 163,
         debut: 2023,
@@ -867,7 +867,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Koseki Bijou",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/e/ee/Koseki_Bijou_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230726054859",
+        img: "src/assets/chars/Koseki_Bijou_Portrait.png",
         colors: ["#6E5BF4", "#FC74FF"],
         debut: 2023,
         opts: {
@@ -877,7 +877,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Nerissa Ravencroft",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/66/Nerissa_Ravencroft_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230726055055",
+        img: "src/assets/chars/Nerissa_Ravencroft_Portrait.png",
         colors: ["#1E26AB", "#2233FC"],
         debut: 2023,
         opts: {
@@ -887,7 +887,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Fuwawa Abyssgard",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/f/f4/Fuwawa_Abyssgard_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230726055215",
+        img: "src/assets/chars/Fuwawa_Abyssgard_Portrait.png",
         colors: ["#67B2FF", "#67B2FF"],
         height: 155,
         debut: 2023,
@@ -898,7 +898,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Mococo Abyssgard",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3e/Mococo_Abyssgard_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230726055318",
+        img: "src/assets/chars/Mococo_Abyssgard_Portrait.png",
         colors: ["#F7A6CA", "#F7A6CA"],
         height: 155,
         debut: 2023,
@@ -909,7 +909,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Elizabeth Rose Bloodflame",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/8/87/Elizabeth_Rose_Bloodflame_Portrait.png/revision/latest/scale-to-width-down/500?cb=20240619035515",
+        img: "src/assets/chars/Elizabeth_Rose_Bloodflame_Portrait.png",
         colors: ["#C63639", "#831F1E"],
         height: 171,
         debut: 2024,
@@ -921,7 +921,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Gigi Murin",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3c/Gigi_Murin_Portrait.png/revision/latest/scale-to-width-down/500?cb=20240619041253",
+        img: "src/assets/chars/Gigi_Murin_Portrait.png",
         colors: ["#FEB543", "#FDDB63"],
         debut: 2024,
         tags: ["orange"],
@@ -932,7 +932,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Cecilia Immergreen",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3c/Cecilia_Immergreen_Portrait.png/revision/latest/scale-to-width-down/500?cb=20240619034207",
+        img: "src/assets/chars/Cecilia_Immergreen_Portrait.png",
         colors: ["#109D5B", "#57B085"],
         height: 162,
         debut: 2024,
@@ -944,7 +944,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Raora Panthera",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/3/34/Raora_Panthera_Portrait.png/revision/latest/scale-to-width-down/500?cb=20240619042904",
+        img: "src/assets/chars/Raora_Panthera_Portrait.png",
         colors: ["#F086AA", "#CB4378"],
         debut: 2024,
         tags: ["pink", "ears"],
@@ -955,7 +955,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hanasaki Miyabi",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/2/2c/Hanasaki_Miyabi_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200622084724",
+        img: "src/assets/chars/Hanasaki_Miyabi_-_Portrait.png",
         colors: ["#B22B2B", "#B22B2B"],
         debut: 2019,
         opts: {
@@ -965,7 +965,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kagami Kira",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/b7/Kagami_Kira_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200622085153",
+        img: "src/assets/chars/Kagami_Kira_-_Portrait.png",
         colors: ["#1EEEEB", "#77A1A2"],
         debut: 2019,
         opts: {
@@ -976,7 +976,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kanade Izuru",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/93/Kanade_Izuru_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200622090510",
+        img: "src/assets/chars/Kanade_Izuru_-_Portrait.png",
         colors: ["#000000", "#4D65A6"],
         debut: 2019,
         opts: {
@@ -986,7 +986,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Arurandeisu",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6f/Arurandeisu_new_Portrait.png/revision/latest/scale-to-width-down/500?cb=20221024081709",
+        img: "src/assets/chars/Arurandeisu_new_Portrait.png",
         colors: ["#958C88", "#48756E"],
         debut: 2019,
         opts: {
@@ -996,7 +996,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Rikka",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a7/Rikka_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210319134651",
+        img: "src/assets/chars/Rikka_-_Portrait.png",
         colors: ["#674F54", "#EAB3B8"],
         height: 179,
         debut: 2019,
@@ -1007,7 +1007,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Astel Leda",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e4/Astel_Leda_-_Portrait_Conductor.png/revision/latest/scale-to-width-down/500?cb=20220626082314",
+        img: "src/assets/chars/Astel_Leda_-_Portrait_Conductor.png",
         colors: ["#F7850A", "#0047AB"],
         debut: 2019,
         opts: {
@@ -1017,7 +1017,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kishido Temma",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/7b/Kishido_Temma_-_Portrait.jpg/revision/latest/scale-to-width-down/500?cb=20200721115842",
+        img: "src/assets/chars/Kishido_Temma_-_Portrait.jpg",
         colors: ["#EFD0A1", "#FFF799"],
         debut: 2019,
         opts: {
@@ -1027,7 +1027,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yukoku Roberu",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/1/15/Yukoku_Roberu_-_Portrait.jpeg/revision/latest/scale-to-width-down/500?cb=20200622091448",
+        img: "src/assets/chars/Yukoku_Roberu_-_Portrait.jpeg",
         colors: ["#734D57", "#EB6E00"],
         debut: 2019,
         opts: {
@@ -1037,7 +1037,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kageyama Shien",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/f/fe/Kageyama_Shien_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210729030716",
+        img: "src/assets/chars/Kageyama_Shien_-_Portrait.png",
         colors: ["#000000", "#7A559B"],
         debut: 2020,
         opts: {
@@ -1047,7 +1047,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Aragami Oga",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/1/1c/Aragami_Oga_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20210729035244",
+        img: "src/assets/chars/Aragami_Oga_-_Portrait.png",
         colors: ["#000000", "#A5C14F"],
         debut: 2020,
         opts: {
@@ -1057,7 +1057,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hitomi Chris",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/42/Hitomi_Chris_-_Full_Illustration.jpg/revision/latest/scale-to-width-down/500?cb=20190726053001",
+        img: "src/assets/chars/Hitomi_Chris_-_Full_Illustration.jpg",
         debut: 2018,
         opts: {
             generation: ["gen1"],
@@ -1066,7 +1066,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Mano Aloe",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/f/fb/Mano_Aloe_Portrait.png/revision/latest/scale-to-width-down/500?cb=20200807015058",
+        img: "src/assets/chars/Mano_Aloe_Portrait.png",
         colors: ["#F38CC4", "#F38CC4"],
         height: 150,
         debut: 2020,
@@ -1077,7 +1077,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yakushiji Suzaku",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/9/95/Yakushiji_Suzaku_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20201003163931",
+        img: "src/assets/chars/Yakushiji_Suzaku_-_Portrait.png",
         height: 180,
         debut: 2019,
         opts: {
@@ -1088,7 +1088,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Tsukishita Kaoru",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/a/ad/Tsukishita_Kaoru_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20221223070923",
+        img: "src/assets/chars/Tsukishita_Kaoru_-_Portrait.png",
         debut: 2020,
         opts: {
             generation: ["stars"],
@@ -1098,7 +1098,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Regis Altare",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/ca/Regis_Altare_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220727105221",
+        img: "src/assets/chars/Regis_Altare_-_Portrait.png",
         colors: ["#54ACDC", "#4652B4"],
         height: 179,
         debut: 2022,
@@ -1109,7 +1109,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Magni Dezmond",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/74/Magni_Dezmond_1.5_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230612163623",
+        img: "src/assets/chars/Magni_Dezmond_1.5_Portrait.png",
         colors: ["#463464", "#DBC78C"],
         height: 184,
         debut: 2022,
@@ -1120,7 +1120,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Axel Syrios",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/5/5b/Axel_Syrios_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220726172756",
+        img: "src/assets/chars/Axel_Syrios_-_Portrait.png",
         colors: ["#FF9603", "#2E2E2E"],
         height: 187,
         debut: 2022,
@@ -1131,7 +1131,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Noir Vesper",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c8/Noir_Vesper_2.0_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230703071228",
+        img: "src/assets/chars/Noir_Vesper_2.0_Portrait.png",
         colors: ["#C8CCD0", "#3D4248"],
         height: 189,
         debut: 2022,
@@ -1142,7 +1142,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Gavis Bettel",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/7c/Gavis_Bettel_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230105123308",
+        img: "src/assets/chars/Gavis_Bettel_-_Portrait.png",
         colors: ["#EB3DA2", "#3C1E78"],
         height: 180,
         debut: 2023,
@@ -1153,7 +1153,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Machina X Flayon",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/65/Machina_X_Flayon_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230105124043",
+        img: "src/assets/chars/Machina_X_Flayon_-_Portrait.png",
         colors: ["#DD3F34", "#32363E"],
         height: 166,
         debut: 2023,
@@ -1164,7 +1164,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Banzoin Hakka",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/0/05/Banzoin_Hakka_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230105124602",
+        img: "src/assets/chars/Banzoin_Hakka_-_Portrait.png",
         colors: ["#BC83F4", "#3E214A"],
         debut: 2023,
         opts: {
@@ -1174,7 +1174,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Josuiji Shinji",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/4/40/Josuiji_Shinri_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20230105125821",
+        img: "src/assets/chars/Josuiji_Shinri_-_Portrait.png",
         colors: ["#A33926", "#F7932F"],
         height: 185,
         debut: 2023,
@@ -1185,7 +1185,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Yatogami Fuma",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6f/Yatogami_Fuma_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220324162117",
+        img: "src/assets/chars/Yatogami_Fuma_-_Portrait.png",
         colors: ["#FABF13", "#B09A61"],
         height: 168,
         debut: 2022,
@@ -1196,7 +1196,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Utsugi Uyu",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/b/be/Utsugi_Uyu_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220324162921",
+        img: "src/assets/chars/Utsugi_Uyu_-_Portrait.png",
         colors: ["#F9EEE2", "#CCA5F5"],
         debut: 2022,
         opts: {
@@ -1206,7 +1206,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hizaki Gamma",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/5/5d/Hizaki_Gamma_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220324163522",
+        img: "src/assets/chars/Hizaki_Gamma_-_Portrait.png",
         colors: ["#E60012", "#FF9632"],
         height: 178,
         debut: 2022,
@@ -1218,7 +1218,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Minase Rio",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/1/19/Minase_Rio_-_Portrait.png/revision/latest/scale-to-width-down/500?cb=20220324164807",
+        img: "src/assets/chars/Minase_Rio_-_Portrait.png",
         colors: ["#A4A8D4", "#5F64FC"],
         height: 170,
         debut: 2022,
@@ -1229,7 +1229,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "A-chan",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/1/1e/A-chan_Portrait.jpg/revision/latest/scale-to-width-down/500?cb=20191121092034",
+        img: "src/assets/chars/A-chan_Portrait.jpg",
         debut: 2017,
         opts: {
             generation: ["staff"],
@@ -1238,7 +1238,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Harusaki Nodoka",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/2/2b/Harusaki_Nodoka_Headshot.jpg/revision/latest/scale-to-width-down/500?cb=20220401022613",
+        img: "src/assets/chars/Harusaki_Nodoka_Headshot.jpg",
         colors: ["#CEE5A2", "#E3F1CD"],
         debut: 2022,
         opts: {
@@ -1248,7 +1248,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hanazono Sayaka",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6e/Hanazono_Sayaka_Portrait.png/revision/latest/scale-to-width-down/500?cb=20251110043759",
+        img: "src/assets/chars/Hanazono_Sayaka_Portrait.png",
         colors: ["#D3B674", "#F3D086"],
         debut: 2025,
         opts: {
@@ -1257,7 +1257,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Izuki Michiru",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/7/79/Izuki_Michiru_Portrait.png/revision/latest/scale-to-width-down/500?cb=20251231073242",
+        img: "src/assets/chars/Izuki_Michiru_Portrait.png",
         colors: ["#BF3966", "#CB4B85"],
         debut: 2025,
         opts: {
@@ -1266,7 +1266,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kazeshiro Yuki",
-        img: "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e2/Kazeshiro_Yuki_Portrait.png/revision/latest/scale-to-width-down/500?cb=20251231073725",
+        img: "src/assets/chars/Kazeshiro_Yuki_Portrait.png",
         colors: ["#7AB4E2", "#92C3E8"],
         debut: 2025,
         opts: {
