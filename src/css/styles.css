@@ -119,6 +119,7 @@ body {
   aspect-ratio: 1 / 1;
   height: auto;
   object-fit: contain;
+  object-position: center bottom;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
