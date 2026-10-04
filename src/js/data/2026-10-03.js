@@ -1228,6 +1228,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Achichi Mela",
+        img: "src/assets/chars/Achichi_Mela_Portrait.png",
+        colors: ["#7778E8", "#53D2CF"],
+        height: 149,
+        debut: 2026,
+        tags: ["purple", "blue", "salamander", "firefighter"],
+        opts: {
+            generation: ["asobimawaritai"],
+        }
+    },
+    {
+        name: "Suzuna Tsuzuri",
+        img: "src/assets/chars/Suzuna_Tsuzuri_Portrait.png",
+        colors: ["#BB1F25", "#FFEECF"],
+        height: 155,
+        debut: 2026,
+        tags: ["red", "goat", "courier"],
+        opts: {
+            generation: ["asobimawaritai"],
+        }
+    },
+    {
+        name: "Hyakuto Kyoko",
+        img: "src/assets/chars/Hyakuto_Kyoko_Portrait.png",
+        colors: ["#F56B24", "#0F4D8E"],
+        height: 162,
+        debut: 2026,
+        tags: ["orange", "police", "gamer"],
+        opts: {
+            generation: ["asobimawaritai"],
+        }
+    },
+    {
+        name: "Sorashina Sopia",
+        img: "src/assets/chars/Sorashina_Sopia_Portrait.png",
+        colors: ["#7B85FF", "#FFFE03"],
+        height: 153,
+        debut: 2026,
+        tags: ["purple", "science", "astronaut"],
+        opts: {
+            generation: ["asobimawaritai"],
+        }
+    },
+    {
         name: "A-chan",
         img: "src/assets/chars/A-chan_Portrait.jpg",
         debut: 2017,
